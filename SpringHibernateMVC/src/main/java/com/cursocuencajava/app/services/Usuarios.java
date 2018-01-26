@@ -8,7 +8,6 @@ import com.cursocuencajava.app.dao.UserDAO;
 import com.cursocuencajava.app.entities.Usuario;
 
 @Service
-@Transactional
 public class Usuarios implements IUsuarios {
 
 	@Autowired

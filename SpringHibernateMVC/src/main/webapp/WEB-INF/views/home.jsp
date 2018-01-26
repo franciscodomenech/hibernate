@@ -9,11 +9,9 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
-<form action="login" method="POST">
-	<input name="u" type="text" placeholder="USUARIO"/><br/>
-	<input name="p" type="password" placeholder="PASSWORD"/><br/>
-	<input type="submit" value="LOG IN"/><br/>
+<form action="api/cursos/save" method="POST">
+	<input name="curso" type="text" placeholder="NOMBRE"/><br/>
+	<input type="submit" value="GUARDAR"/><br/>
 </form>
 </body>
 </html>
